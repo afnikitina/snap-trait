@@ -48,6 +48,14 @@ class Instrument {
 		$this->instrumentDescription = $newInstrumentDescription;
 	}
 
+	public function getInstrumentHasOwner() : bool {
+		return ($this->instrumentHasOwner);
+	}
+
+	public function setInstrumentHasOwner(bool $newInstrumentHasOwner = false) {
+		$this->instrumentHasOwner = $newInstrumentHasOwner;
+	}
+
 
 
 
